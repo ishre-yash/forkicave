@@ -1,5 +1,5 @@
 node_modules
-.parcel-cache
 dist
+.parcel-cache
 .parcel-cache
 .DS_Store

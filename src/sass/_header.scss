@@ -21,8 +21,8 @@
   transition: all 0.3s;
 
   &:focus-within {
-    transform: translateY(-2px);
-    box-shadow: 0 0.7rem 3rem rgba($color-grey-dark-1, 0.08);
+    transform: translateY(-1px);
+    box-shadow: 0 0.7rem 3rem rgba($color-grey-dark-1, 0.02);
   }
 
   &__field {
@@ -104,7 +104,7 @@
     }
 
     &:hover {
-      border-radius: 25px;
+      border-radius: 12px;
       background-color: $color-grey-light-2;
     }
   }
@@ -113,6 +113,7 @@
 .bookmarks {
   padding: 1rem 0;
   position: absolute;
+  border-radius: 12px;
   // right: 0;
   right: -2.5rem;
   z-index: 10;
